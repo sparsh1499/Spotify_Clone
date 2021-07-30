@@ -1,14 +1,18 @@
 import React from 'react'
 import "./Header.css"
+import SearchIcon from '@material-ui/icons/Search';
+import { Avatar } from '@material-ui/core';
 
 function Header() {
     return (
         <div className="header">
-            <div className="header__letf">
-
+            <div className="header__left">
+                <SearchIcon/>
+                <input placeholder="Search for Artist, Songs" type="text"/> 
             </div>
             <div className="header__right">
-                
+                <Avatar src="https://qph.fs.quoracdn.net/main-thumb-221267786-200-gmhrqrcscbslxfczeqnhfscnwqsrqcix.jpeg" alt="Sparsh"/>
+                <h4>Sparsh Bhardwaj</h4>
             </div>
         </div>
     )

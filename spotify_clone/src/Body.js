@@ -4,8 +4,7 @@ import Header from './Header'
 
 function Body({ spotify }) {
     return (
-        <div className="body">
-            <h1>I am Body</h1>
+        <div className="body"> 
             <Header spotify={spotify}/>
         </div>
     )
